@@ -1,0 +1,14 @@
+In worker node
+
+Kubeproxy- Workernode networking part will managed by kubeproxy.
+it is networking containner, assigning ip address to containner, loadbalancng functionality, proxy related things it will handled and managed
+
+Containeer runtime- it manages & montior the state of containner
+
+Java app --> Jar file --> container --> Pod
+
+Pod gives security to the container, robusts, aditional Loadbalancer feature, scaleup,scaledown
+
+Pod is the feature by K8's which is helping my application more robust
+
+Kubelet- it decides what to do inside the worker node
